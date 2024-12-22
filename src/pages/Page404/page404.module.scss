@@ -1,0 +1,26 @@
+@use "@styles" as *;
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  font-size: var(--fsz-big);
+}
+
+.headling {
+  font-size: 28px;
+}
+
+.header {
+  font-size: 44px;
+  line-height: 1.8;
+}
+
+.descr {
+  color: var(--inactive-color);
+}

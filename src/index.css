@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --header-height: 70px;
+  --footer-height: 100px;
+
+  --dark-color: #111;
+
+  --active-color: #333;
+  --inactive-color: #999;
+
+  --primary-color: #3d5ac4;
+
+  --fsz-small: 18px;
+  --fsz-medium: 20px;
+  --fsz-big: 22px;
+  --fsz-huge: 24px;
+
+  overflow-y: scroll;
+}
+
+li {
+  list-style: none;
+}

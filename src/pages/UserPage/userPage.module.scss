@@ -1,0 +1,15 @@
+@use "@styles" as *;
+
+.name {
+  font-size: var(--fsz-huge);
+  font-weight: 500;
+}
+
+.text {
+  font-size: var(--fsz-medium);
+  color: var(--inactive-color);
+}
+
+.albumWrapper{
+  padding: 20px 0;
+}

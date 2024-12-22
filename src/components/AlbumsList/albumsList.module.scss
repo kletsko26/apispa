@@ -1,0 +1,21 @@
+@use "@styles" as *;
+
+.headling {
+  font-size: var(--fsz-huge);
+  font-weight: 700;
+}
+
+.albumLink {
+  line-height: 1.5;
+  p {
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.albumItem {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}

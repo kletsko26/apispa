@@ -1,0 +1,27 @@
+.nav {
+  position: relative;
+}
+
+.linksList {
+  position: absolute;
+  right: 0;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.linkWrapper {
+  a {
+    color: var(--inactive-color);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: var(--fsz-medium);
+    transition: 0.1s all;
+  }
+}
+
+.activeLink {
+  a {
+    color: var(--active-color);
+  }
+}

@@ -1,0 +1,14 @@
+@use "@components/Dashboard/dashboard.module.scss" as *;
+
+.footer {
+  border-top: 1px solid var(--dark-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item {
+  font-size: var(--fsz-medium);
+  color: var(--inactive-color);
+  font-weight: 400;
+}
